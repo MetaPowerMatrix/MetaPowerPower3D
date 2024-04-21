@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5406EEF2BD3B4E100FCED0D /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5406EEE2BD3B4E100FCED0D /* WebSocketService.swift */; };
+		A5406EF12BD3B78800FCED0D /* MasterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5406EF02BD3B78800FCED0D /* MasterDetailView.swift */; };
+		A5406EF32BD42C9200FCED0D /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5406EF22BD42C9200FCED0D /* GameState.swift */; };
+		A5406EF82BD4E7B900FCED0D /* RoomInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5406EF42BD4E7B900FCED0D /* RoomInfoView.swift */; };
+		A5406EF92BD4E7B900FCED0D /* RoomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5406EF52BD4E7B900FCED0D /* RoomCardView.swift */; };
+		A5406EFA2BD4E7B900FCED0D /* RoomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5406EF62BD4E7B900FCED0D /* RoomListView.swift */; };
+		A5406EFB2BD4E7B900FCED0D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5406EF72BD4E7B900FCED0D /* LibraryView.swift */; };
+		A5406EFD2BD5461100FCED0D /* GameMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5406EFC2BD5461100FCED0D /* GameMessage.swift */; };
+		A567F4562BD55AE1005AE3D4 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A567F4552BD55AE1005AE3D4 /* AudioRecorder.swift */; };
+		A567F4582BD55C4E005AE3D4 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A567F4572BD55C4E005AE3D4 /* WebSocketManager.swift */; };
 		A5E8D99B2BD244030099CD0D /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = A5E8D99A2BD244030099CD0D /* RealityKitContent */; };
 		A5E8D99D2BD244030099CD0D /* MetaPowerPower3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D99C2BD244030099CD0D /* MetaPowerPower3DApp.swift */; };
 		A5E8D99F2BD244030099CD0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D99E2BD244030099CD0D /* ContentView.swift */; };
@@ -14,9 +24,29 @@
 		A5E8D9A32BD244030099CD0D /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = A5E8D9A22BD244030099CD0D /* ImageBasedLighting.skybox */; };
 		A5E8D9A52BD244040099CD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E8D9A42BD244040099CD0D /* Assets.xcassets */; };
 		A5E8D9A82BD244040099CD0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E8D9A72BD244040099CD0D /* Preview Assets.xcassets */; };
+		A5E8D9B12BD267720099CD0D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9AF2BD267720099CD0D /* Session.swift */; };
+		A5E8D9B42BD2686E0099CD0D /* GameTownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9B32BD2686E0099CD0D /* GameTownModel.swift */; };
+		A5E8D9BA2BD26E900099CD0D /* AVAudioPCMBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9B52BD26E900099CD0D /* AVAudioPCMBuffer.swift */; };
+		A5E8D9BC2BD26E900099CD0D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9B72BD26E900099CD0D /* Date.swift */; };
+		A5E8D9BD2BD26E900099CD0D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9B82BD26E900099CD0D /* View.swift */; };
+		A5E8D9BF2BD26F790099CD0D /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9BE2BD26F790099CD0D /* AppEnviroment.swift */; };
+		A5E8D9C12BD275780099CD0D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9C02BD275780099CD0D /* Constants.swift */; };
+		A5E8D9C32BD2765B0099CD0D /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9C22BD2765B0099CD0D /* NetworkModel.swift */; };
+		A5E8D9C52BD279910099CD0D /* GameSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9C42BD279910099CD0D /* GameSceneView.swift */; };
+		A5E8D9C72BD27AC90099CD0D /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8D9C62BD27AC90099CD0D /* AsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5406EEE2BD3B4E100FCED0D /* WebSocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
+		A5406EF02BD3B78800FCED0D /* MasterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDetailView.swift; sourceTree = "<group>"; };
+		A5406EF22BD42C9200FCED0D /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		A5406EF42BD4E7B900FCED0D /* RoomInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomInfoView.swift; sourceTree = "<group>"; };
+		A5406EF52BD4E7B900FCED0D /* RoomCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomCardView.swift; sourceTree = "<group>"; };
+		A5406EF62BD4E7B900FCED0D /* RoomListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomListView.swift; sourceTree = "<group>"; };
+		A5406EF72BD4E7B900FCED0D /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		A5406EFC2BD5461100FCED0D /* GameMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMessage.swift; sourceTree = "<group>"; };
+		A567F4552BD55AE1005AE3D4 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		A567F4572BD55C4E005AE3D4 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
 		A5E8D9952BD244030099CD0D /* MetaPowerPower3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaPowerPower3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E8D9992BD244030099CD0D /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		A5E8D99C2BD244030099CD0D /* MetaPowerPower3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaPowerPower3DApp.swift; sourceTree = "<group>"; };
@@ -26,6 +56,16 @@
 		A5E8D9A42BD244040099CD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E8D9A72BD244040099CD0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5E8D9A92BD244040099CD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E8D9AF2BD267720099CD0D /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		A5E8D9B32BD2686E0099CD0D /* GameTownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTownModel.swift; sourceTree = "<group>"; };
+		A5E8D9B52BD26E900099CD0D /* AVAudioPCMBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioPCMBuffer.swift; sourceTree = "<group>"; };
+		A5E8D9B72BD26E900099CD0D /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		A5E8D9B82BD26E900099CD0D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		A5E8D9BE2BD26F790099CD0D /* AppEnviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
+		A5E8D9C02BD275780099CD0D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A5E8D9C22BD2765B0099CD0D /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		A5E8D9C42BD279910099CD0D /* GameSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneView.swift; sourceTree = "<group>"; };
+		A5E8D9C62BD27AC90099CD0D /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +100,14 @@
 		A5E8D9972BD244030099CD0D /* MetaPowerPower3D */ = {
 			isa = PBXGroup;
 			children = (
+				A5406EF72BD4E7B900FCED0D /* LibraryView.swift */,
+				A5406EF52BD4E7B900FCED0D /* RoomCardView.swift */,
+				A5406EF42BD4E7B900FCED0D /* RoomInfoView.swift */,
+				A5406EF62BD4E7B900FCED0D /* RoomListView.swift */,
+				A5406EEE2BD3B4E100FCED0D /* WebSocketService.swift */,
+				A5E8D9BE2BD26F790099CD0D /* AppEnviroment.swift */,
+				A5E8D9B92BD26E900099CD0D /* Extensions */,
+				A5E8D9AF2BD267720099CD0D /* Session.swift */,
 				A5E8D99C2BD244030099CD0D /* MetaPowerPower3DApp.swift */,
 				A5E8D99E2BD244030099CD0D /* ContentView.swift */,
 				A5E8D9A02BD244030099CD0D /* ImmersiveView.swift */,
@@ -67,6 +115,16 @@
 				A5E8D9A42BD244040099CD0D /* Assets.xcassets */,
 				A5E8D9A92BD244040099CD0D /* Info.plist */,
 				A5E8D9A62BD244040099CD0D /* Preview Content */,
+				A5E8D9B32BD2686E0099CD0D /* GameTownModel.swift */,
+				A5E8D9C02BD275780099CD0D /* Constants.swift */,
+				A5E8D9C22BD2765B0099CD0D /* NetworkModel.swift */,
+				A5E8D9C42BD279910099CD0D /* GameSceneView.swift */,
+				A5E8D9C62BD27AC90099CD0D /* AsyncImage.swift */,
+				A5406EF02BD3B78800FCED0D /* MasterDetailView.swift */,
+				A5406EF22BD42C9200FCED0D /* GameState.swift */,
+				A5406EFC2BD5461100FCED0D /* GameMessage.swift */,
+				A567F4552BD55AE1005AE3D4 /* AudioRecorder.swift */,
+				A567F4572BD55C4E005AE3D4 /* WebSocketManager.swift */,
 			);
 			path = MetaPowerPower3D;
 			sourceTree = "<group>";
@@ -85,6 +143,16 @@
 				A5E8D9A72BD244040099CD0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5E8D9B92BD26E900099CD0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5E8D9B52BD26E900099CD0D /* AVAudioPCMBuffer.swift */,
+				A5E8D9B72BD26E900099CD0D /* Date.swift */,
+				A5E8D9B82BD26E900099CD0D /* View.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +229,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E8D9B12BD267720099CD0D /* Session.swift in Sources */,
+				A5406EF82BD4E7B900FCED0D /* RoomInfoView.swift in Sources */,
+				A5E8D9BD2BD26E900099CD0D /* View.swift in Sources */,
+				A5E8D9C32BD2765B0099CD0D /* NetworkModel.swift in Sources */,
+				A5406EEF2BD3B4E100FCED0D /* WebSocketService.swift in Sources */,
+				A5406EFA2BD4E7B900FCED0D /* RoomListView.swift in Sources */,
 				A5E8D99F2BD244030099CD0D /* ContentView.swift in Sources */,
+				A5406EF32BD42C9200FCED0D /* GameState.swift in Sources */,
+				A5406EFB2BD4E7B900FCED0D /* LibraryView.swift in Sources */,
 				A5E8D99D2BD244030099CD0D /* MetaPowerPower3DApp.swift in Sources */,
 				A5E8D9A12BD244030099CD0D /* ImmersiveView.swift in Sources */,
+				A5E8D9B42BD2686E0099CD0D /* GameTownModel.swift in Sources */,
+				A5E8D9C52BD279910099CD0D /* GameSceneView.swift in Sources */,
+				A5406EFD2BD5461100FCED0D /* GameMessage.swift in Sources */,
+				A5406EF12BD3B78800FCED0D /* MasterDetailView.swift in Sources */,
+				A5E8D9C72BD27AC90099CD0D /* AsyncImage.swift in Sources */,
+				A567F4562BD55AE1005AE3D4 /* AudioRecorder.swift in Sources */,
+				A5E8D9BF2BD26F790099CD0D /* AppEnviroment.swift in Sources */,
+				A5E8D9BC2BD26E900099CD0D /* Date.swift in Sources */,
+				A5E8D9BA2BD26E900099CD0D /* AVAudioPCMBuffer.swift in Sources */,
+				A5406EF92BD4E7B900FCED0D /* RoomCardView.swift in Sources */,
+				A567F4582BD55C4E005AE3D4 /* WebSocketManager.swift in Sources */,
+				A5E8D9C12BD275780099CD0D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

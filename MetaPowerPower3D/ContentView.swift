@@ -10,20 +10,19 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
+    @Environment(\.userSession) private var session
+    @Environment(\.gameInfo) private var game
 
     @State private var showImmersiveSpace = false
     @State private var immersiveSpaceIsShown = false
 
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
-
+    
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
+            LibraryView().withGame(game)
+            
             Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
                 .font(.title)
                 .frame(width: 360)
@@ -48,7 +47,7 @@ struct ContentView: View {
                     immersiveSpaceIsShown = false
                 }
             }
-        }
+        }        
     }
 }
 
